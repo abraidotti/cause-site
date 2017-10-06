@@ -12,7 +12,7 @@ body {
 color: red;
 margin: 0 auto;
 width: 600px;
-display: block;
+display: inline-block;
 }
 
 .nav-bar ul li {
@@ -23,7 +23,7 @@ display: block;
 
 .wrapper {
   display: grid;
-  grid-template-columns: fit-content(40%);
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 
 .wrapper > * {
