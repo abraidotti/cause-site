@@ -35,10 +35,9 @@ display: block;
   color: #fff;
 }
 
-#id {
+body {
 
-  margin: 0 auto;
-  text-align: center;
+  background-image: url('./img/puerto_rico_beaches.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
