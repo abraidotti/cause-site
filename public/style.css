@@ -7,6 +7,17 @@ body {
   font: 2em Sansita, sans-serif;
 }
 
+.nav-bar {
+color: red;
+margin: 0 auto;
+width: 600px;
+display: block;
+}
+
+.nav-bar ul li {
+  list-style-type: none;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -19,4 +30,5 @@ body {
   padding: 10px 20px;
   background-color: rgb(233,78,119);
   color: #fff;
+
 }
