@@ -16,6 +16,8 @@ display: block;
 
 .nav-bar ul li {
   list-style-type: none;
+  float: left;
+  margin: .25em;
 }
 
 .wrapper {
@@ -30,5 +32,13 @@ display: block;
   padding: 10px 20px;
   background-color: rgb(233,78,119);
   color: #fff;
+
+}
+#id {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
 }
