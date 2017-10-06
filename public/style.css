@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 40px;
+  background-color: #fff;
+  color: #444;
+  font: 2em Sansita, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.wrapper > * {
+  border: 5px solid rgb(214,129,137);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(233,78,119);
+  color: #fff;
+}
