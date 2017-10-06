@@ -37,10 +37,16 @@ display: block;
 
 body {
 
-  background-image: url('./img/puerto_rico_beaches.jpg');
+  background-image: url('./img/beach.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+}
+
+.img {
+  margin: auto;
+  padding-left: 20px;
 
 }
