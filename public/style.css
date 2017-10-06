@@ -23,7 +23,7 @@ display: block;
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: fit-content(40%);
 }
 
 .wrapper > * {
@@ -33,7 +33,6 @@ display: block;
   padding: 10px 20px;
   background-color: rgb(233,78,119);
   color: #fff;
-
 }
 
 #id {
