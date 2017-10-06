@@ -1,0 +1,12 @@
+
+.nav-bar {
+color: red;
+margin: 0 auto;
+width: 600px;
+display: block;
+
+}
+
+.nav-bar ul li {
+  list-style-type: none;
+}
