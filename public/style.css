@@ -54,3 +54,17 @@ body {
 .text {
   color: white;
 }
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.wrap>* {
+  border: 5px solid rgb(214, 129, 137);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: rgb(233, 78, 119);
+  color: #fff;
+}
