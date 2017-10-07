@@ -51,8 +51,11 @@ body {
   margin-top: 100px;
 }
 
+/* About Page  */
+
 .text {
   color: white;
+  text-decoration: none;
 }
 
 .wrap {
